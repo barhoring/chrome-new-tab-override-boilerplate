@@ -1,0 +1,31 @@
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Aligner-item {
+  max-width: 50%;
+}
+
+.Aligner-item--top {
+  align-self: flex-start;
+}
+
+.Aligner-item--bottom {
+  align-self: flex-end;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.card {
+  border-color: blueviolet;
+  border-style: solid;
+  font-size: 13px;
+  width: 300px;
+  height: 132px;
+  margin: 5px;
+  padding-left: 10px;
+}

@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "tab override",
+  "description": "This extensions demonstrates how to override the new tab page.",
+  "version": "1.0",
+  "author": "Bar Horing Amir",
+  "icons": {
+    "16": "images/16.png",
+    "48": "images/48.png",
+    "128": "images/128.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  }
+}
